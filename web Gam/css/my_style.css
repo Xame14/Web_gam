@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.left-panel-H {
+    width: 70%; /* Left panel occupies half of the screen */
+    background-color: #312923; /* Change to your desired color */
+    padding-top: 30px;
+}
+
+.right-panel-H {
+    width: 30%; /* Right panel occupies half of the screen */
+    background-image: url('../images/slots.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding-top: 30px;
+}
+.left-panel-R {
+    width: 60%; /* Left panel occupies half of the screen */
+    background-color: #312923; /* Change to your desired color */
+    padding-top: 30px;
+}
+
+.right-panel-R {
+    width: 40%; /* Right panel occupies half of the screen */
+    background-image: url('../images/wheel.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding-top: 30px;
+}
+.left-panel-T {
+    width: 60%; /* Left panel occupies half of the screen */
+    background-color: #312923; /* Change to your desired color */
+    padding-top: 30px;
+}
+
+.right-panel-T {
+    width: 40%; /* Right panel occupies half of the screen */
+    background-image: url('../images/texas.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding-top: 30px;
+}
+.left-panel-B {
+    width: 60%; /* Left panel occupies half of the screen */
+    background-color: #312923; /* Change to your desired color */
+    padding-top: 30px;
+}
+
+.right-panel-B {
+    width: 40%; /* Right panel occupies half of the screen */
+    background-image: url('../images/blkjk.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding-top: 30px;
+}
+nav {
+    background-color: #312923; /* Menu background color */
+    padding: 10px 0; /* Padding for the menu */
+    position: fixed; /* Fixes the menu at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Aligns to the top */
+    z-index: 1000; /* Keeps the menu above other content */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+h1 {
+    font-size: 3em;
+    color: #e81e40; /* red */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 60px;
+    padding-top:50px;
+}
+.button {
+    display: inline-block; /* Makes the link behave like a block element */
+    padding: 15px 20px; /* Adds padding */
+    font-size: 16px; /* Sets the font size */
+    color: white; /* Text color */
+    text-align: center; /* Centers the text */
+    border: none; /* Removes the border */
+    /*border-radius: 5px;*/ /* Rounds the corners */
+    text-decoration: none; /* Removes the underline */
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 0.3s; /* Adds a transition effect */
+    background-color: #e81e40; /* Bright egg yolk color */
+    margin-left: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+    .button:hover {
+        background-color: #c91231; /* Darker shade on hover */
+    }
+.menu {
+    list-style-type: none; /* Removes bullets */
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Centers the items */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+	.menu li {
+        margin: 0 15px; /* Spacing between items */
+    }
+
+    .menu a {
+        color: white; /* Link color */
+        text-decoration: none; /* Removes underline */
+        padding: 10px 15px; /* Padding for links */
+        border-radius: 5px; /* Rounds corners */
+        transition: background-color 0.3s, transform 0.3s; /* Transition effect */
+        text-transform: uppercase;
+    }
+
+        .menu a:hover {
+            background-color: #e81e40; /* Darker shade on hover */
+            transform: scale(1.05); /* Slightly enlarges the button */
+        }
+
+    .menu li::before {
+            content: ''; /* Checkmark icon */
+    }
